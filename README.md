@@ -54,3 +54,78 @@ The system focuses on:
 ---
 
 ## 📂 Project Structure
+swarm_logistics_sim/
+│── data/
+│── src/
+│ ├── environment.py
+│ ├── vehicle_agent.py
+│ ├── baseline_router.py
+│ ├── aco_router.py
+│ ├── load_balancer.py
+│ ├── multimodal.py
+│ ├── metrics.py
+│ └── visualization.py
+│── dashboard/
+│── experiments/
+│── run_simulation.py
+
+
+---
+
+## 🚀 How It Works
+
+1. Initialize a road network (graph)
+2. Deploy vehicle agents (truck, bike, drone)
+3. Generate delivery orders
+4. Run:
+   - Baseline routing
+   - Swarm-based optimization
+5. Enable:
+   - Load transfers
+   - Multimodal routing
+6. Analyze results via dashboard
+
+---
+
+## 📊 Evaluation Metrics
+
+- Total Distance Traveled  
+- Delivery Time  
+- On-time Delivery Rate  
+- Vehicle Utilization  
+- Empty Miles  
+- CO₂ Emissions  
+- Cost Efficiency  
+
+---
+
+## 🎯 Expected Outcomes
+
+- Reduced delivery cost  
+- Improved adaptability to dynamic conditions  
+- Lower emissions  
+- Better vehicle utilization  
+- Efficient last-mile delivery  
+
+---
+
+## 🔮 Future Enhancements
+
+- Reinforcement Learning integration  
+- Real-world map data (OpenStreetMap)  
+- Electric vehicle constraints  
+- Warehouse & inventory coupling  
+- Multi-agent deep learning  
+
+---
+
+## 👨‍💻 Author
+
+**Shivanshu Mishra**  
+AI/ML Engineer | Generative AI Enthusiast  
+
+---
+
+## 📜 License
+
+This project is for academic and research purposes.
